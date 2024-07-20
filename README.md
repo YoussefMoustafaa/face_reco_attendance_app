@@ -42,8 +42,7 @@ pip install tkinter opencv-python numpy face-recognition
 1. Clone the repository:
 
 ```sh
-git clone <repository-url>
-cd face-recognition-attendance
+git clone "https://github.com/YoussefMoustafaa/face_reco_attendance_app.git"
 ```
 
 2. Run the application:
@@ -57,11 +56,15 @@ python app.py
 1. Register a User:
 
 . Click the "Register" button.
+
 . Enter the user's name in the provided field.
+
 . Click the "Capture" button to take a photo.
 
 2. Login:
 
 . Click the "Login" button.
+
 . The application will use the webcam to detect and recognize the user's face.
+
 . If the user is recognized, their name will be displayed on the screen, and their login time will be logged in Attendance.csv.
